@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Novell Services Login</title>
+</head>
+<body>
+    <form>
+        <h2>Novell Services Login</h2>
+
+        <label>Username:</label>
+        <input type="text" name="username"><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password"><br><br>
+
+        <label>City of Employment:</label>
+        <input type="text" name="city"><br><br>
+
+        <label>Web server:</label>
+        <select name="server">
+            <option>-- Choose a server --</option>
+            <option>Server 1</option>
+            <option>Server 2</option>
+            <option>Server 3</option>
+        </select><br><br>
+
+        <label>Please specify your role:</label><br>
+        <input type="radio" name="role" value="admin"> Admin<br>
+        <input type="radio" name="role" value="engineer"> Engineer<br>
+        <input type="radio" name="role" value="manager"> Manager<br>
+        <input type="radio" name="role" value="guest"> Guest<br><br>
+
+        <label>Single Sign-on to the following:</label><br>
+        <input type="checkbox" name="mail"> Mail<br>
+        <input type="checkbox" name="payroll"> Payroll<br>
+        <input type="checkbox" name="selfservice"> Self-service<br><br>
+
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
+
